@@ -1,10 +1,3 @@
-<?php
-// Der Titel der Seite
-$pageTitle = 'Turnierpaare - Club Ceronne';
-// Der Inhalt, der spezifisch für die Turnierpaare-Seite ist
-ob_start();
-?>
-<!-- Spezifischer Inhalt für die Turnierpaare-Seite -->
 <div class="filters-container">
     <select id="age-group-filter" class="custom-select">
         <option value="all">Alle Alterklassen</option>
@@ -54,12 +47,5 @@ ob_start();
         <a href="https://www.instagram.com/etv.ceronne" target="_blank">Instagram-Seite</a>.
     </h3>
 </div>
-<button id="download-csv">Auswahl als Tabelle herunterladen</button>
-
-<?php
-$content = ob_get_clean();
-
-// Das gemeinsame Layout einbinden
-include('layout.php');
-?>
+<button id="download-csv">Download CSV</button>
 <link rel="stylesheet" href="couples.css">
