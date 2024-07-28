@@ -6,8 +6,11 @@
     /* Adjust spacing between items as needed */
 }
 
-/* Style for couple blocks to match course blocks */
+/* Style for couple blocks */
 .couple-item {
+    display: flex;
+    /* Align items at the start of the flex container */
+    align-items: flex-start;
     /* Internal padding for couple blocks */
     padding: 5px;
     /* Highlight color */
@@ -24,6 +27,10 @@
     transition: background-color 0.3s ease;
 }
 
+.couple-text {
+    flex: 1;
+}
+
 /* Bold text style */
 .bold {
     font-weight: bold;
@@ -37,7 +44,8 @@
 }
 
 .couple-image {
-    width: 100px;
+    max-width: 100px;
+    max-height: 200px;
     /* Set the width of the image */
     height: auto;
     border-radius: 10px;
@@ -103,7 +111,8 @@
 .custom-input {
     flex: 1;
     padding: 0.5rem 1rem;
-    border-radius: 1px;
+    border-radius: 15px;
+    /* Adjusted to match other elements */
     border: 1px solid #ccc;
     background-color: white;
     font-size: 1rem;
@@ -133,10 +142,7 @@
         flex-basis: auto;
         /* Reset base size to auto for full width */
     }
-}
 
-/* Media query for small screens */
-@media (max-width: 768px) {
     .couple-item {
         flex-direction: column;
         align-items: center;

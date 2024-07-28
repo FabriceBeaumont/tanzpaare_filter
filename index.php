@@ -56,6 +56,7 @@ ob_start();
         <a href="https://www.instagram.com/etv.ceronne" target="_blank">Instagram-Seite</a>.
     </h3>
 </div>
+<button id="download-csv">Download CSV</button>
 
 <?php
 $content = ob_get_clean();
