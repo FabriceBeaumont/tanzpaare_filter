@@ -8,13 +8,15 @@ ob_start();
 <div class="filters-container">
     <select id="age-group-filter" class="custom-select">
         <option value="all">Alle Alterklassen</option>
+        <option value="Junioren II">Junioren II</option>
         <option value="Jugend">Jugend</option>
         <option value="HGR">HGR</option>
         <option value="HGR II">HGR II</option>
-        <option value="Masters I">Masters I</option>
-        <option value="Masters II">Masters II</option>
-        <option value="Masters III">Masters III</option>
-        <option value="Masters IV">Masters IV</option>
+        <option value="Master">Master</option>
+        <option value="Master II">Master II</option>
+        <option value="Master III">Master III</option>
+        <option value="Master IV">Master IV</option>
+        <option value="Master V">Master V</option>
         <option value="EQT Frauen 16+">EQT Frauen 16+</option>
     </select>
 

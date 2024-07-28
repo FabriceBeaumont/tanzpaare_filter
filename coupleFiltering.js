@@ -157,6 +157,9 @@ document.addEventListener('DOMContentLoaded', () => {
             coupleDiv.dataset.ballroomLevel = couple.danceLevelBallroom || '';
             coupleDiv.dataset.names = `${couple.firstnameLeader} ${couple.lastnameLeader} ${couple.firstnameFollower} ${couple.lastnameFollower}`;
 
+
+
+
             coupleList.appendChild(coupleDiv);
         });
 

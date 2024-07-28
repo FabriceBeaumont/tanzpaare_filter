@@ -71,8 +71,7 @@
 /* Container for filters */
 .filters-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
     /* Space between filters */
@@ -157,7 +156,6 @@
 
 /* Style for reset filters button */
 .reset-filters-btn {
-    align-self: flex;
     padding: 10px 20px;
     margin-left: 1rem;
     /* Space from the last filter element */
@@ -181,8 +179,8 @@
 }
 
 /* Hide reset button on small screens */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .reset-filters-btn {
         display: none;
     }
-} */
+}
