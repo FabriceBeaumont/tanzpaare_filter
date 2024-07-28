@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couple Filter</title>
+    <link rel="stylesheet" href="couples.css">
+</head>
+
+<body>
+    <div class="filters-container">
+        <select id="age-group-filter" class="custom-select">
+            <option value="all">Alle Alterklassen</option>
+            <option value="Junioren II">Junioren II</option>
+            <option value="Jugend">Jugend</option>
+            <option value="HGR">HGR</option>
+            <option value="HGR II">HGR II</option>
+            <option value="Master">Master</option>
+            <option value="Master II">Master II</option>
+            <option value="Master III">Master III</option>
+            <option value="Master IV">Master IV</option>
+            <option value="Master V">Master V</option>
+        </select>
+
+        <select id="latin-level-filter" class="custom-select">
+            <option value="all">Alle Latein Leistungsklassen</option>
+            <option value="S">S</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="none">keine</option>
+        </select>
+
+        <select id="ballroom-level-filter" class="custom-select">
+            <option value="all">Alle Standard Leistungsklassen</option>
+            <option value="S">S</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="none">keine</option>
+        </select>
+
+        <input type="text" id="name-filter" class="custom-input" placeholder="Nach Namen suchen...">
+
+        <button id="reset-filters" class="reset-filters-btn">Reset</button>
+    </div>
+
+    <div id="couple-list">
+        <!-- The couples will be dynamically inserted here by JavaScript -->
+    </div>
+
+    <script src="coupleFiltering.js"></script>
+</body>
+
+</html>

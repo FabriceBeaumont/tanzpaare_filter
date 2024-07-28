@@ -1,0 +1,287 @@
+[
+    {
+        "firstnameLeader": "Julia",
+        "lastnameLeader": "Path",
+        "firstnameFollower": null,
+        "lastnameFollower": null,
+        "ageGroups": [
+            "EQT Frauen 16+"
+        ],
+        "danceLevelLatin": "B",
+        "danceLevelBallroom": "A",
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Tarik",
+        "lastnameLeader": "Hennings",
+        "firstnameFollower": "Christine",
+        "lastnameFollower": "Sostmann",
+        "ageGroups": [
+            "HGR"
+        ],
+        "danceLevelLatin": "A",
+        "danceLevelBallroom": "A",
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Patrick",
+        "lastnameLeader": "Dolk",
+        "firstnameFollower": "Lisa",
+        "lastnameFollower": "Platzeck",
+        "ageGroups": [
+            "HGR"
+        ],
+        "danceLevelLatin": "B",
+        "danceLevelBallroom": null,
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Maximilian",
+        "lastnameLeader": "Laudon",
+        "firstnameFollower": "Talitha",
+        "lastnameFollower": "Rohwoldt",
+        "ageGroups": [
+            "HGR"
+        ],
+        "danceLevelLatin": "B",
+        "danceLevelBallroom": null,
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Oliver",
+        "lastnameLeader": "Ehlbeck",
+        "firstnameFollower": "Kaya Sophie",
+        "lastnameFollower": "Reichenbach",
+        "ageGroups": [
+            "HGR"
+        ],
+        "danceLevelLatin": "C",
+        "danceLevelBallroom": null,
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Taehyun",
+        "lastnameLeader": "Jung",
+        "firstnameFollower": "Lisa",
+        "lastnameFollower": "Witt",
+        "ageGroups": [
+            "HGR"
+        ],
+        "danceLevelLatin": "C",
+        "danceLevelBallroom": null,
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Marco",
+        "lastnameLeader": "Krewing",
+        "firstnameFollower": "Julia",
+        "lastnameFollower": "Quante",
+        "ageGroups": [
+            "HGR"
+        ],
+        "danceLevelLatin": "C",
+        "danceLevelBallroom": null,
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Silvan",
+        "lastnameLeader": "Möllmann",
+        "firstnameFollower": "Juliette",
+        "lastnameFollower": "Kolz",
+        "ageGroups": [
+            "HGR"
+        ],
+        "danceLevelLatin": "D",
+        "danceLevelBallroom": null,
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Uwe",
+        "lastnameLeader": "Sann",
+        "firstnameFollower": "Nicole",
+        "lastnameFollower": "Niemann",
+        "ageGroups": [
+            "HGR"
+        ],
+        "danceLevelLatin": "D",
+        "danceLevelBallroom": null,
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Gian",
+        "lastnameLeader": "Veitenhansl",
+        "firstnameFollower": "Linda",
+        "lastnameFollower": "Holtkamp",
+        "ageGroups": [
+            "HGR"
+        ],
+        "danceLevelLatin": "D",
+        "danceLevelBallroom": null,
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Fabrice",
+        "lastnameLeader": "Beaumont",
+        "firstnameFollower": "Mariami",
+        "lastnameFollower": "Koberidze",
+        "ageGroups": [
+            "HGR",
+            "HGR II"
+        ],
+        "danceLevelLatin": "A",
+        "danceLevelBallroom": null,
+        "instagram": [
+            "dance.fanibe",
+            "mariamkoberidze_"
+        ],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Fynn",
+        "lastnameLeader": "Rumberg",
+        "firstnameFollower": "Karina",
+        "lastnameFollower": "Bernien",
+        "ageGroups": [
+            "HGR"
+        ],
+        "danceLevelLatin": "A",
+        "danceLevelBallroom": "S",
+        "instagram": [],
+        "dancesportinfo": "https://www.dancesportinfo.net/Couple/Fynn_Rumberg_and_Karina_Bernien_420426/Details",
+        "wdsfCouple": "https://www.worlddancesport.org/Couples/Fynn-Mago-Rumberg-and-Karina-Roxana-Bernien-610746",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Marco",
+        "lastnameLeader": "Krewing",
+        "firstnameFollower": "Julia",
+        "lastnameFollower": "Quante",
+        "ageGroups": [
+            "Masters"
+        ],
+        "danceLevelLatin": null,
+        "danceLevelBallroom": "A",
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Jörg",
+        "lastnameLeader": "Tolsdorf",
+        "firstnameFollower": "Ina",
+        "lastnameFollower": "Sehmrau",
+        "ageGroups": [
+            "Masters"
+        ],
+        "danceLevelLatin": null,
+        "danceLevelBallroom": "B",
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Matthias",
+        "lastnameLeader": "Arlt",
+        "firstnameFollower": "Christine",
+        "lastnameFollower": "Stein",
+        "ageGroups": [
+            "Masters II"
+        ],
+        "danceLevelLatin": null,
+        "danceLevelBallroom": "A",
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Sven",
+        "lastnameLeader": "Siemsen",
+        "firstnameFollower": "Dorothea",
+        "lastnameFollower": "Jäger",
+        "ageGroups": [
+            "Masters II"
+        ],
+        "danceLevelLatin": null,
+        "danceLevelBallroom": "A",
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Jörg",
+        "lastnameLeader": "Grünberg",
+        "firstnameFollower": "Barbara",
+        "lastnameFollower": "Wölke",
+        "ageGroups": [
+            "Masters II"
+        ],
+        "danceLevelLatin": null,
+        "danceLevelBallroom": "B",
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Michael",
+        "lastnameLeader": "Nordmann",
+        "firstnameFollower": "Jana",
+        "lastnameFollower": "Paprocki",
+        "ageGroups": [
+            "Masters II"
+        ],
+        "danceLevelLatin": null,
+        "danceLevelBallroom": "S",
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Udo",
+        "lastnameLeader": "Schiffer",
+        "firstnameFollower": "Angelika",
+        "lastnameFollower": "Schiffer",
+        "ageGroups": [
+            "Masters III"
+        ],
+        "danceLevelLatin": null,
+        "danceLevelBallroom": "S",
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    },
+    {
+        "firstnameLeader": "Günther",
+        "lastnameLeader": "Otto",
+        "firstnameFollower": "Ingrid",
+        "lastnameFollower": "Otto",
+        "ageGroups": [
+            "Masters IV"
+        ],
+        "danceLevelLatin": null,
+        "danceLevelBallroom": "D",
+        "instagram": [],
+        "dancesportinfo": "",
+        "image": "couple_images/ceronne_logo.png"
+    }
+]
