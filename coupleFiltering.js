@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const coupleList = document.getElementById('couple-list');
         coupleList.innerHTML = '';
 
+        // Sort couples by lastname of the leader
+        couples.sort((a, b) => a.lastnameLeader.localeCompare(b.lastnameLeader));
+
         couples.forEach(couple => {
             const coupleDiv = document.createElement('div');
             coupleDiv.className = 'couple-item';
