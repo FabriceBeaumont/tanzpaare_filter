@@ -7,11 +7,12 @@ ob_start();
 <!-- Spezifischer Inhalt für die Turnierpaare-Seite -->
 <div class="filters-container">
     <select id="age-group-filter" class="custom-select">
-        <option value="all">Alle Alterklassen</option>
-        <option value="Jugend">Jugend</option>
-        <option value="HGR">HGR</option>
-        <option value="HGR II">HGR II</option>
-        <option value="Masters">Masters I</option>
+        <option value="all">Alle Altersklassen</option>
+        <option value="Junioren I">Junioren I</option>
+		<option value="Jugend">Jugend</option>		
+        <option value="HGR">Hauptgruppe (HGR)</option>
+        <option value="HGR II">Hauptgruppe (HGR) II</option>
+        <option value="Masters I">Masters I</option>
         <option value="Masters II">Masters II</option>
         <option value="Masters III">Masters III</option>
         <option value="Masters IV">Masters IV</option>

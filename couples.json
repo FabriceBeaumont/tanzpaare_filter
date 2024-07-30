@@ -14,6 +14,22 @@
         "image": "couple_images/ceronne_logo.png"
     },
     {
+        "firstnameLeader": "Katharina",
+        "lastnameLeader": "Stehn",
+        "firstnameFollower": "",
+        "lastnameFollower": "",
+        "ageGroups": [
+            "Solo Kinder I/II"
+        ],
+        "danceLevelLatin": "D",
+        "danceLevelBallroom": "",
+        "instagram": [
+            "dancing_katharina"
+        ],
+        "dancesportinfo": "",
+        "image": "couple_images/Katharina-Stehn.png"
+    },
+    {
         "firstnameLeader": "Raffael",
         "lastnameLeader": "Schirmer",
         "firstnameFollower": "Fina",
@@ -39,7 +55,7 @@
         "danceLevelBallroom": "C",
         "instagram": [],
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Yanto_Petsch_and_Samantha_Schirmer_422403/Details",
-        "image": "couple_images/ceronne_logo.png"
+        "image": "couple_images/Yanto-Petsch_Samantha-Schirmer.png"
     },
     {
         "firstnameLeader": "Silvan",
@@ -88,7 +104,7 @@
         "firstnameLeader": "Patrick",
         "lastnameLeader": "Dolk",
         "firstnameFollower": "Lisa",
-        "lastnameFollower": "Platzek",
+        "lastnameFollower": "Platzeck",
         "ageGroups": [
             "HGR"
         ],
@@ -125,7 +141,7 @@
         "danceLevelBallroom": "B",
         "instagram": [],
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Tarik_Hennings_and_Christine_Sostmann_429595/Details",
-        "image": "couple_images/ceronne_logo.png"
+        "image": "couple_images/Tarik-Hennings_Christine-Sostmann.png.png"
     },
     {
         "firstnameLeader": "Maximilian Amadeus",
@@ -139,7 +155,7 @@
         "danceLevelBallroom": "A",
         "instagram": [],
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Maximilian_Amadeus_Paulus_and_Elisabeth_Prepernau_414226/Details",
-        "image": "couple_images/ceronne_logo.png"
+        "image": "couple_images/Maximilian-Amadeus-Paulus_Elisabeth-Preprenau.png"
     },
     {
         "firstnameLeader": "Nikita",
@@ -158,14 +174,17 @@
     {
         "firstnameLeader": "Fabrice",
         "lastnameLeader": "Beaumont",
-        "firstnameFollower": "Mariam",
+        "firstnameFollower": "Mariami",
         "lastnameFollower": "Koberidze",
         "ageGroups": [
             "HGR"
         ],
         "danceLevelLatin": "S",
         "danceLevelBallroom": "",
-        "instagram": [],
+        "instagram": [
+            "dance.fanibe",
+            "mariamkoberidze_"
+        ],
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Fabrice_Beaumont_and_Mariami_Koberidze_429282/Details#google_vignette",
         "wdsfCouple": "https://www.worlddancesport.org/Couples/Fabrice-Beaumont-and-Mariami-Koberidze-612204",
         "image": "couple_images/ceronne_logo.png"
@@ -180,7 +199,9 @@
         ],
         "danceLevelLatin": "S",
         "danceLevelBallroom": "A",
-        "instagram": [],
+        "instagram": [
+            "fynnmago"
+        ],
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Fynn_Rumberg_and_Karina_Bernien_420426/Details",
         "wdsfCouple": "https://www.worlddancesport.org/Couples/Fynn-Mago-Rumberg-and-Karina-Roxana-Bernien-610746",
         "image": "couple_images/ceronne_logo.png"
@@ -253,9 +274,11 @@
         ],
         "danceLevelLatin": "B",
         "danceLevelBallroom": "",
-        "instagram": [],
+        "instagram": [
+            "oneandonlyannalena"
+        ],
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Oliver_Keuter_and_Annalena_Eggeling_429969/Details",
-        "image": "couple_images/ceronne_logo.png"
+        "image": "couple_images/Oliver-Keuter_Annalena-Eggeling.png"
     },
     {
         "firstnameLeader": "Marco",

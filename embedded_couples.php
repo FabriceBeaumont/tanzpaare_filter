@@ -1,10 +1,12 @@
 <div class="filters-container">
     <select id="age-group-filter" class="custom-select">
-        <option value="all">Alle Alterklassen</option>
+        <option value="all">Alle Altersklassen</option>
+		<option value="Solo Kinder I/II">Solo Kinder I/II</option>
+		<option value="Junioren I">Junioren I</option>
         <option value="Jugend">Jugend</option>
-        <option value="HGR">HGR</option>
-        <option value="HGR II">HGR II</option>
-        <option value="Masters">Masters I</option>
+        <option value="HGR">Hauptgruppe (HGR)</option>
+        <option value="HGR II">Hauptgruppe (HGR) II</option>
+        <option value="Masters I">Masters I</option>
         <option value="Masters II">Masters II</option>
         <option value="Masters III">Masters III</option>
         <option value="Masters IV">Masters IV</option>
@@ -47,5 +49,5 @@
         <a href="https://www.instagram.com/etv.ceronne" target="_blank">Instagram-Seite</a>.
     </h3>
 </div>
-<button id="download-csv">Download CSV</button>
+<button id="download-csv">Auswahl als Tabelle herunterladen</button>
 <link rel="stylesheet" href="couples.css">
