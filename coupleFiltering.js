@@ -48,10 +48,13 @@ document.addEventListener('DOMContentLoaded', () => {
             if (couple.firstnameFollower && couple.lastnameFollower) {
                 namesDiv.textContent += ` & ${couple.firstnameFollower} ${couple.lastnameFollower}`;
             }
-            namesDiv.className = 'bold';
+            namesDiv.className = 'couple-names bold'
 
             textDiv.appendChild(namesDiv);
 
+
+            const danceInfoDiv = document.createElement('div');
+            danceInfoDiv.className = 'dance-info-container';
 
             // Create a spans for the age group
             if (couple.ageGroups && couple.ageGroups.length > 0) {
@@ -61,17 +64,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Create a span for the decriptive text of the latin level
                 const ageGroupsTitleSpan = document.createElement('span');
-                ageGroupsTitleSpan.className = 'bold';
-                ageGroupsTitleSpan.textContent = 'Altersklassen: ';
+                ageGroupsTitleSpan.className = 'dance-info-title bold';
+                ageGroupsTitleSpan.textContent = 'Alterskl.: ';
 
                 // Create a span for the actual latin level
                 const ageGroupsSpan = document.createElement('span');
+                ageGroupsSpan.className = 'dance-info-value'
                 ageGroupsSpan.textContent = `${couple.ageGroups.join(', ')}`;
 
                 // Append the spans to the div
                 ageGroupsDiv.appendChild(ageGroupsTitleSpan);
                 ageGroupsDiv.appendChild(ageGroupsSpan);
-                textDiv.appendChild(ageGroupsDiv);
+                danceInfoDiv.appendChild(ageGroupsDiv);
             }
 
             // Create a spans for the latin level
@@ -82,17 +86,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Create a span for the decriptive text of the latin level
                 const LatinLevelTitleSpan = document.createElement('span');
-                LatinLevelTitleSpan.className = 'bold';
-                LatinLevelTitleSpan.textContent = 'Leistungsklasse Latein: ';
+                LatinLevelTitleSpan.className = 'dance-info-title bold';
+                LatinLevelTitleSpan.textContent = 'Latein: ';
 
                 // Create a span for the actual latin level
                 const latinLevelSpan = document.createElement('span');
+                latinLevelSpan.className = 'dance-info-value'
                 latinLevelSpan.textContent = couple.danceLevelLatin;
 
                 // Append the spans to the div
                 danceLevelLatin.appendChild(LatinLevelTitleSpan);
                 danceLevelLatin.appendChild(latinLevelSpan);
-                textDiv.appendChild(danceLevelLatin);
+                danceInfoDiv.appendChild(danceLevelLatin);
             }
 
             // Create a spans for the ballroom level
@@ -103,18 +108,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Create a span for the decriptive text of the latin level
                 const BallroomLevelTitleSpan = document.createElement('span');
-                BallroomLevelTitleSpan.className = 'bold';
-                BallroomLevelTitleSpan.textContent = 'Leistungsklasse Standard: ';
+                BallroomLevelTitleSpan.className = 'dance-info-title bold';
+                BallroomLevelTitleSpan.textContent = 'Standard: ';
 
                 // Create a span for the actual latin level
                 const ballroomLevelSpan = document.createElement('span');
+                ballroomLevelSpan.className = 'dance-info-value'
                 ballroomLevelSpan.textContent = couple.danceLevelBallroom;
 
                 // Append the spans to the div
                 danceLevelBallroom.appendChild(BallroomLevelTitleSpan);
                 danceLevelBallroom.appendChild(ballroomLevelSpan);
-                textDiv.appendChild(danceLevelBallroom);
+                danceInfoDiv.appendChild(danceLevelBallroom);
             }
+
+            textDiv.appendChild(danceInfoDiv)
+
+            const linksDiv = document.createElement('div');
+            linksDiv.className = 'couple-links'
 
             if (couple.instagram.length > 0) {
                 const instagramDiv = document.createElement('div');
@@ -128,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 instagramSpan.innerHTML = couple.instagram.map(account => `<a href="https://www.instagram.com/${account}" target="_blank">${account}</a>`).join(', ');
                 instagramDiv.appendChild(instagramTitleSpan);
                 instagramDiv.appendChild(instagramSpan);
-                textDiv.appendChild(instagramDiv);
+                linksDiv.appendChild(instagramDiv);
             }
 
             // Render the dancesportinfo.net link, if present
@@ -136,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const dsiDiv = document.createElement('div');
                 const account = "DanceSportInfo.net";
                 dsiDiv.innerHTML = `<a href="${couple.dancesportinfo}" target="_blank">${account}</a>`;
-                textDiv.appendChild(dsiDiv);
+                linksDiv.appendChild(dsiDiv);
             }
 
             // Render the WDSF athlete link for the leader, if present
@@ -145,8 +156,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 const name_leader = couple.firstnameLeader;
                 const name_follower = couple.firstnameFollower;
                 wdsfLeaderDiv.innerHTML = `<a href="${couple.wdsfCouple}" target="_blank">WDSF couple ${name_leader} & ${name_follower}</a>`;
-                textDiv.appendChild(wdsfLeaderDiv);
+                linksDiv.appendChild(wdsfLeaderDiv);
             }
+            textDiv.appendChild(linksDiv)
             // Add the text data to the couple div
             coupleDiv.appendChild(textDiv);
 

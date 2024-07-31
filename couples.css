@@ -1,3 +1,4 @@
+/* General styling */
 /* Define the fonts like in the CSS of the homepage */
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow');
 
@@ -19,76 +20,11 @@ a {
     font-weight: 700;
 }
 
-/* General container for the schedule */
-#couple-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1rem;
-    /* Adjust spacing between items as needed */
-}
-
-/* Style for couple blocks */
-.couple-item {
-    display: flex;
-    /* Align items at the start of the flex container */
-    align-items: flex-start;
-    /* Internal padding for couple blocks */
-    padding: 5px;
-    /* Highlight color */
-    background-color: #427aa1;
-    /* Background color of couple blocks */
-    color: #ffffff;
-    /* Space between couple blocks */
-    margin-bottom: 10px;
-    /* Rounded corners for couple container */
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-sizing: border-box;
-    /* Smooth transition for background color */
-    transition: background-color 0.3s ease;
-}
-
-.couple-text {
-    flex: 1;
-}
-
-/* Bold text style */
 .bold {
     font-weight: bold;
 }
 
-.instagram-link a,
-.dancesportinfo-link a,
-.wdsf-link a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-.couple-image {
-    max-width: 100px;
-    max-height: 200px;
-    /* Set the width of the image */
-    height: auto;
-    border-radius: 10px;
-    /* Optional: to match the overall design */
-    margin-right: 10px;
-    /* Space between image and text */
-}
-
-.couple-item .couple-info {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Highlight style for active/selected items */
-.highlight {
-    background-color: #427aa1;
-    /* Highlight color */
-    color: #ffffff;
-    /* Darker text color for better readability */
-}
-
+/* Styling the menu */
 /* Container for filters */
 .filters-container {
     display: flex;
@@ -144,27 +80,23 @@ a {
     box-sizing: border-box;
 }
 
-/* Ensure input fields take full width within a flex container */
-.flex-container {
-    display: flex;
-    /* Add some spacing between elements */
-    gap: 1rem;
-}
 
 /* Responsive design adjustments */
 @media (max-width: 768px) {
-    .filters-container {
+    /* .filters-container {
         flex-direction: column;
         /* Display select elements vertically */
-    }
+    /* } */
 
-    .custom-select {
-        width: 100%;
-        /* Full width for select elements */
-        flex-basis: auto;
-        /* Reset base size to auto for full width */
-    }
+    /* */
+    /* .custom-select { */
+    /* width: 100%; */
+    /* Full width for select elements */
+    /* flex-basis: auto; */
+    /* Reset base size to auto for full width */
+    /* } */
 
+    /* 
     .couple-item {
         flex-direction: column;
         align-items: center;
@@ -173,7 +105,7 @@ a {
     .couple-item img.couple-image {
         margin-right: 0;
         margin-bottom: 10px;
-    }
+    } */
 }
 
 /* Style for reset filters button */
@@ -207,3 +139,100 @@ a {
         display: none;
     }
 } */
+
+/* Couple styling */
+
+/* General container for the couples */
+#couple-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 0.5rem;
+    /* Adjust spacing between items as needed */
+}
+
+.couple-item {
+    display: -webkit-flex;
+    display: flex;
+    /* Align items vertically center */
+    align-items: center;
+    /* Add a border for better visibility */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* Add some padding */
+    padding: 7px;
+    /* Add some margin between items */
+    /* margin-bottom: 2px; */
+    white-space: nowrap;
+    /* Highlight color */
+    background-color: #427aa1;
+    /* Background color of couple blocks */
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.couple-image {
+    display: inline-block;
+    /* float: left; */
+    vertical-align: top;
+    width: 40%;
+    border-radius: 10px;
+    /* Ensure the image covers the area */
+    object-fit: cover;
+    /* Maintain aspect ratio */
+    height: auto;
+    max-width: 200px;
+}
+
+.couple-text {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5px;
+    /* Add some padding for spacing */
+    width: 60%;
+    white-space: wrap;
+}
+
+/* Ensure text takes full width if no image is present */
+.couple-item:not(:has(.couple-image)) .couple-text {
+    width: 100%;
+}
+
+/* Additional styling for couple-names */
+.couple-names {
+    font-weight: bold;
+    font-size: 1.1em;
+    /* Space below the names if there are other text elements */
+    margin-bottom: 5px;
+}
+
+.dance-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dance-info {
+    display: flex;
+    align-items: center;
+}
+
+.dance-info-title {
+    width: 45px;
+    /* Set a fixed width for alignment */
+}
+
+.dance-info-value {
+    padding-left: 25px;
+    /* Adjust this value for the desired indent */
+}
+
+.couple-links {
+    margin-top: 2px;
+}
+
+.instagram-link a,
+.dancesportinfo-link a,
+.wdsf-link a {
+    text-decoration: none;
+    color: #007bff;
+}
