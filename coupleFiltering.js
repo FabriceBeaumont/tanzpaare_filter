@@ -125,40 +125,47 @@ document.addEventListener('DOMContentLoaded', () => {
             textDiv.appendChild(danceInfoDiv)
 
             const linksDiv = document.createElement('div');
-            linksDiv.className = 'couple-links'
+            linksDiv.className = 'couple-links';
 
-            if (couple.instagram.length > 0) {
-                const instagramDiv = document.createElement('div');
+            // Assemble the instagram links
+            let instagramHtml = '';
 
-                // Create a span for the decriptive text of the latin level
-                const instagramTitleSpan = document.createElement('span');
-                instagramTitleSpan.className = 'bold';
-                instagramTitleSpan.textContent = 'Instagram: ';
-
-                instagramSpan = document.createElement('span');
-                instagramSpan.innerHTML = couple.instagram.map(account => `<a href="https://www.instagram.com/${account}" target="_blank">${account}</a>`).join(', ');
-                instagramDiv.appendChild(instagramTitleSpan);
-                instagramDiv.appendChild(instagramSpan);
-                linksDiv.appendChild(instagramDiv);
+            if (couple.instagramLeader && couple.instagramLeader.trim() !== "") {
+                instagramHtml += `<a class="white-link" href="https://www.instagram.com/${couple.instagramLeader}" target="_blank">
+                    <img src="couple_images/instagram_logo_white.png" alt="Instagram" style="width: 16px; height: 16px;">${couple.firstnameLeader}</a>`;
             }
+
+            if (couple.instagramFollower && couple.instagramFollower.trim() !== "") {
+                if (instagramHtml) {
+                    instagramHtml += ' ';
+                }
+                instagramHtml += `<a class="white-link" href="https://www.instagram.com/${couple.instagramFollower}" target="_blank">
+                    <img src="couple_images/instagram_logo_white.png" alt="Instagram" style="width: 16px; height: 16px;">${couple.firstnameFollower}</a>`;
+            }
+            const instagramDiv = document.createElement('span');
+            instagramDiv.innerHTML = instagramHtml;
+            linksDiv.appendChild(instagramDiv);
 
             // Render the dancesportinfo.net link, if present
             if (couple.dancesportinfo && couple.dancesportinfo.trim() !== "") {
                 const dsiDiv = document.createElement('div');
-                const account = "DanceSportInfo.net";
-                dsiDiv.innerHTML = `<a href="${couple.dancesportinfo}" target="_blank">${account}</a>`;
+
+                dsiSpan = document.createElement('span');
+                dsiSpan.innerHTML = `<a class="white-link" href="${couple.dancesportinfo}" target="_blank">DanceSportInfo</a>`;
+                dsiDiv.appendChild(dsiSpan);
                 linksDiv.appendChild(dsiDiv);
             }
 
             // Render the WDSF athlete link for the leader, if present
             if (couple.wdsfCouple && couple.wdsfCouple.trim() !== "") {
                 const wdsfLeaderDiv = document.createElement('div');
-                const name_leader = couple.firstnameLeader;
-                const name_follower = couple.firstnameFollower;
-                wdsfLeaderDiv.innerHTML = `<a href="${couple.wdsfCouple}" target="_blank">WDSF couple ${name_leader} & ${name_follower}</a>`;
+
+                wdsfSpan = document.createElement('span');
+                wdsfSpan.innerHTML = `<a class="white-link" href="${couple.wdsfCouple}" target="_blank"><img src="couple_images/WDSF_logo_white.png" alt="DanceSportInfo" style="width: 16px; height: 16px;"></img>WDSF Couple</a>`;
+                wdsfLeaderDiv.appendChild(wdsfSpan)
                 linksDiv.appendChild(wdsfLeaderDiv);
             }
-            textDiv.appendChild(linksDiv)
+            textDiv.appendChild(linksDiv);
             // Add the text data to the couple div
             coupleDiv.appendChild(textDiv);
 

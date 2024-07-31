@@ -14,10 +14,11 @@ h4 {
     font-weight: 600;
 }
 
-a {
-    /*text-decoration: none;*/
-    color: #18272F;
-    font-weight: 700;
+.white-link {
+    /* text-decoration: none; */
+    color: white;
+    /*black: #18272F;*/
+    font-weight: 600;
 }
 
 .bold {
@@ -31,17 +32,17 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
     /* Space between filters */
+    gap: 1rem;
     padding: 1rem;
-    margin-top: 0.5rem;
     /* Space from the top, adjust as needed */
-    background-color: white;
+    margin-top: 0.5rem;
     /* White background of the container */
-    border-radius: 10px;
+    background-color: white;
     /* Rounded corners */
-    box-shadow: none;
+    border-radius: 10px;
     /* Remove shadow if not needed */
+    box-shadow: none;
 }
 
 /* Style for custom select elements */
@@ -80,34 +81,6 @@ a {
     box-sizing: border-box;
 }
 
-
-/* Responsive design adjustments */
-@media (max-width: 768px) {
-    /* .filters-container {
-        flex-direction: column;
-        /* Display select elements vertically */
-    /* } */
-
-    /* */
-    /* .custom-select { */
-    /* width: 100%; */
-    /* Full width for select elements */
-    /* flex-basis: auto; */
-    /* Reset base size to auto for full width */
-    /* } */
-
-    /* 
-    .couple-item {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .couple-item img.couple-image {
-        margin-right: 0;
-        margin-bottom: 10px;
-    } */
-}
-
 /* Style for reset filters button */
 .reset-filters-btn {
     align-self: flex;
@@ -133,13 +106,6 @@ a {
     color: black;
 }
 
-/* Hide reset button on small screens */
-/* @media (max-width: 768px) {
-    .reset-filters-btn {
-        display: none;
-    }
-} */
-
 /* Couple styling */
 
 /* General container for the couples */
@@ -147,7 +113,6 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 0.5rem;
-    /* Adjust spacing between items as needed */
 }
 
 .couple-item {
@@ -203,7 +168,7 @@ a {
     font-weight: bold;
     font-size: 1.1em;
     /* Space below the names if there are other text elements */
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .dance-info-container {
@@ -213,26 +178,19 @@ a {
 
 .dance-info {
     display: flex;
-    align-items: center;
+    align-items: top;
 }
 
 .dance-info-title {
-    width: 45px;
     /* Set a fixed width for alignment */
+    width: 50px;
 }
 
 .dance-info-value {
-    padding-left: 25px;
-    /* Adjust this value for the desired indent */
+    /* Adjust this value for the indent and thus aligned values */
+    padding-left: 30px;
 }
 
 .couple-links {
-    margin-top: 2px;
-}
-
-.instagram-link a,
-.dancesportinfo-link a,
-.wdsf-link a {
-    text-decoration: none;
-    color: #007bff;
+    margin-top: 10px;
 }

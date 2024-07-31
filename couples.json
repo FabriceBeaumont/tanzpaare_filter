@@ -9,7 +9,8 @@
         ],
         "danceLevelLatin": "B",
         "danceLevelBallroom": "A",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -23,9 +24,7 @@
         ],
         "danceLevelLatin": "D",
         "danceLevelBallroom": "",
-        "instagram": [
-            "dancing_katharina"
-        ],
+        "instagramLeader": "dancing_katharina",
         "dancesportinfo": "",
         "image": "couple_images/Katharina-Stehn.png"
     },
@@ -39,7 +38,8 @@
         ],
         "danceLevelLatin": "D",
         "danceLevelBallroom": "D",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Raffael_Schirmer_and_Fina_Schirmer_428549/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -53,7 +53,8 @@
         ],
         "danceLevelLatin": "C",
         "danceLevelBallroom": "C",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Yanto_Petsch_and_Samantha_Schirmer_422403/Details",
         "image": "couple_images/Yanto-Petsch_Samantha-Schirmer.png"
     },
@@ -67,7 +68,8 @@
         ],
         "danceLevelLatin": "D",
         "danceLevelBallroom": "D",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Silvan_Heinrich_and_Rabea_Stockbrink_425638/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -81,7 +83,8 @@
         ],
         "danceLevelLatin": "D",
         "danceLevelBallroom": "D",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Anton_Fedder_and_Liza_Gagelmann_430545/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -96,7 +99,8 @@
         ],
         "danceLevelLatin": "C",
         "danceLevelBallroom": "",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Taehyun_Jung_and_Lisa_Witt_425634/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -110,7 +114,8 @@
         ],
         "danceLevelLatin": "B",
         "danceLevelBallroom": "D",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "",
         "image": "couple_images/Patrick_Dolk-Lisa_Platzeck.png"
     },
@@ -124,7 +129,8 @@
         ],
         "danceLevelLatin": "B",
         "danceLevelBallroom": "",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -139,7 +145,8 @@
         ],
         "danceLevelLatin": "A",
         "danceLevelBallroom": "B",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Tarik_Hennings_and_Christine_Sostmann_429595/Details",
         "image": "couple_images/Tarik-Hennings_Christine-Sostmann.png.png"
     },
@@ -153,7 +160,8 @@
         ],
         "danceLevelLatin": "",
         "danceLevelBallroom": "A",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Maximilian_Amadeus_Paulus_and_Elisabeth_Prepernau_414226/Details",
         "image": "couple_images/Maximilian-Amadeus-Paulus_Elisabeth-Preprenau.png"
     },
@@ -167,7 +175,8 @@
         ],
         "danceLevelLatin": "S",
         "danceLevelBallroom": "B",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Nikita_Savon_and_Laura_Ahting_413367/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -181,10 +190,8 @@
         ],
         "danceLevelLatin": "S",
         "danceLevelBallroom": "",
-        "instagram": [
-            "dance.fanibe",
-            "mariamkoberidze_"
-        ],
+        "instagramLeader": "dance.fanibe",
+        "instagramFollower": "mariamkoberidze_",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Fabrice_Beaumont_and_Mariami_Koberidze_429282/Details#google_vignette",
         "wdsfCouple": "https://www.worlddancesport.org/Couples/Fabrice-Beaumont-and-Mariami-Koberidze-612204",
         "image": "couple_images/ceronne_logo.png"
@@ -199,9 +206,8 @@
         ],
         "danceLevelLatin": "S",
         "danceLevelBallroom": "A",
-        "instagram": [
-            "fynnmago"
-        ],
+        "instagramLeader": "fynnmago",
+        "instagramFollower": "mariamkoberidze_",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Fynn_Rumberg_and_Karina_Bernien_420426/Details",
         "wdsfCouple": "https://www.worlddancesport.org/Couples/Fynn-Mago-Rumberg-and-Karina-Roxana-Bernien-610746",
         "image": "couple_images/ceronne_logo.png"
@@ -216,7 +222,8 @@
         ],
         "danceLevelLatin": "D",
         "danceLevelBallroom": "D",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Emil_Von_Bargen_and_Helen_Kretzschmar_423072/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -230,7 +237,8 @@
         ],
         "danceLevelLatin": "",
         "danceLevelBallroom": "C",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Rafael_Wirth_and_Aileen_Gieratz_414230/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -245,7 +253,8 @@
         ],
         "danceLevelLatin": "B",
         "danceLevelBallroom": "B",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Marcus_Nguyen_Ngoc_and_Lea_Hendrike_Tessmer_418887/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -260,7 +269,8 @@
         ],
         "danceLevelLatin": "",
         "danceLevelBallroom": "A",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Sebastian_Paz_and_Selina_Kuban_429596/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -274,9 +284,8 @@
         ],
         "danceLevelLatin": "B",
         "danceLevelBallroom": "",
-        "instagram": [
-            "oneandonlyannalena"
-        ],
+        "instagramLeader": "",
+        "instagramFollower": "oneandonlyannalena",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Oliver_Keuter_and_Annalena_Eggeling_429969/Details",
         "image": "couple_images/Oliver-Keuter_Annalena-Eggeling.png"
     },
@@ -290,7 +299,8 @@
         ],
         "danceLevelLatin": "C",
         "danceLevelBallroom": "A",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -304,7 +314,8 @@
         ],
         "danceLevelLatin": "B",
         "danceLevelBallroom": "",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Henning_Prestin_and_Kerrin_Prestin_321670/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -318,7 +329,8 @@
         ],
         "danceLevelLatin": "",
         "danceLevelBallroom": "B",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Jorg_Tolsdorf_and_Ina_Sehmrau_426627/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -332,7 +344,8 @@
         ],
         "danceLevelLatin": "",
         "danceLevelBallroom": "A",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Jorg_Grunberg_and_Barbara_Woelke_375453/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -346,7 +359,8 @@
         ],
         "danceLevelLatin": "",
         "danceLevelBallroom": "A",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Matthias_Arlt_and_Christine_Stein_416432/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -360,7 +374,8 @@
         ],
         "danceLevelLatin": "",
         "danceLevelBallroom": "A",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Sven_Siemsen_and_Dorothea_Jager_422414/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -374,7 +389,8 @@
         ],
         "danceLevelLatin": "",
         "danceLevelBallroom": "S",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Michael_Nordmann_and_Jana_Paprocki_213546/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -388,7 +404,9 @@
         ],
         "danceLevelLatin": "",
         "danceLevelBallroom": "S",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
+        "instagramCouple": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Udo_Schiffer_and_Angelika_Schiffer_93553/Details",
         "image": "couple_images/ceronne_logo.png"
     },
@@ -402,7 +420,8 @@
         ],
         "danceLevelLatin": "",
         "danceLevelBallroom": "D",
-        "instagram": [],
+        "instagramLeader": "",
+        "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Gunther_Otto_and_Ingrid_Otto_398520/Details",
         "image": "couple_images/ceronne_logo.png"
     }
