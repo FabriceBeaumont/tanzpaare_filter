@@ -51,7 +51,7 @@
         "ageGroups": [
             "Jugend"
         ],
-        "danceLevelLatin": "C",
+        "danceLevelLatin": "B",
         "danceLevelBallroom": "C",
         "instagramLeader": "",
         "instagramFollower": "",
@@ -105,21 +105,6 @@
         "image": "couple_images/ceronne_logo.png"
     },
     {
-        "firstnameLeader": "Patrick",
-        "lastnameLeader": "Dolk",
-        "firstnameFollower": "Lisa",
-        "lastnameFollower": "Platzeck",
-        "ageGroups": [
-            "HGR"
-        ],
-        "danceLevelLatin": "B",
-        "danceLevelBallroom": "D",
-        "instagramLeader": "",
-        "instagramFollower": "",
-        "dancesportinfo": "",
-        "image": "couple_images/Patrick_Dolk-Lisa_Platzeck.png"
-    },
-    {
         "firstnameLeader": "Maximilian",
         "lastnameLeader": "Laudon",
         "firstnameFollower": "Talitha",
@@ -148,7 +133,7 @@
         "instagramLeader": "",
         "instagramFollower": "",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Tarik_Hennings_and_Christine_Sostmann_429595/Details",
-        "image": "couple_images/Tarik-Hennings_Christine-Sostmann.png.png"
+        "image": "couple_images/Tarik-Hennings_Christine-Sostmann.png"
     },
     {
         "firstnameLeader": "Maximilian Amadeus",
@@ -210,21 +195,6 @@
         "instagramFollower": "mariamkoberidze_",
         "dancesportinfo": "https://www.dancesportinfo.net/Couple/Fynn_Rumberg_and_Karina_Bernien_420426/Details",
         "wdsfCouple": "https://www.worlddancesport.org/Couples/Fynn-Mago-Rumberg-and-Karina-Roxana-Bernien-610746",
-        "image": "couple_images/ceronne_logo.png"
-    },
-    {
-        "firstnameLeader": "Emil",
-        "lastnameLeader": "von Bargen",
-        "firstnameFollower": "Helen",
-        "lastnameFollower": "Kretzschmar",
-        "ageGroups": [
-            "HGR II"
-        ],
-        "danceLevelLatin": "D",
-        "danceLevelBallroom": "D",
-        "instagramLeader": "",
-        "instagramFollower": "",
-        "dancesportinfo": "https://www.dancesportinfo.net/Couple/Emil_Von_Bargen_and_Helen_Kretzschmar_423072/Details",
         "image": "couple_images/ceronne_logo.png"
     },
     {
